@@ -15,6 +15,12 @@ module.exports = {
         '2xl': '6rem',
       },
     },
+    screens: {
+      '2lg': {'max': '2000px'},
+      'lg': {'max': '1100px'},
+      'md': {'max': '767px'},
+      'sm': {'max': '500px'}
+    }
   },
   plugins: [],
 }
