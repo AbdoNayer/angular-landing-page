@@ -3,9 +3,9 @@
         <div class="grid items-center justify-between grid-cols-3 md:justify-center md:grid-cols-1">
             <div class="">
                 <ul class="flex items-center lg:justify-center">
-                    <li class="text-white me-8 md:mx-4 lg:text-[11px] sm:text-[11px]">الرئيسية</li>
-                    <li class="text-white me-8 md:mx-4 lg:text-[11px] sm:text-[11px]">من نحن</li>
-                    <li class="text-white me-8 md:mx-4 lg:text-[11px] sm:text-[11px]">كيف يعمل عقدي</li>
+                    <li class="text-white me-8 md:mx-4 lg:text-[11px] sm:text-[11px] cursor-pointer" (click)="goDown('Home')">الرئيسية</li>
+                    <li class="text-white me-8 md:mx-4 lg:text-[11px] sm:text-[11px] cursor-pointer" (click)="goDown('About')">من نحن</li>
+                    <li class="text-white me-8 md:mx-4 lg:text-[11px] sm:text-[11px] cursor-pointer" (click)="goDown('HowTo')">كيف يعمل عقدي</li>
                 </ul>
             </div>
             <div class="text-center lg:my-4">
