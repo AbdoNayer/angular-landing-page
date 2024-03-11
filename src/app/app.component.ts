@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as AOS from 'aos';
+// import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +7,9 @@ import * as AOS from 'aos';
   styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit {
-  ngOnInit(){
-    
-    AOS.init();
 
+  ngOnInit(){
+    // AOS.init();
   }
+
 }
